@@ -1,5 +1,9 @@
-![pocoPHP](https://i.ibb.co/DrKt5cL/Screenshot-from-2020-10-12-11-22-22-1.png)
-Ready to help you quickly write simple well designed web applications and APIs.
+<p align="center">
+  <img src="https://i.ibb.co/vqRxbNk/Screenshot-from-2020-10-12-11-22-22-2.png" alt="logo"/>
+  
+  Ready to help you quickly write simple well designed web applications and APIs.
+</p>
+
 
 ### Installation
 It's recommended that you use [Composer](https://getcomposer.org/) to install pocoPHP.
