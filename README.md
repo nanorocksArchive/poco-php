@@ -1,7 +1,8 @@
 <p align="center">
   <img src="https://i.ibb.co/vqRxbNk/Screenshot-from-2020-10-12-11-22-22-2.png" alt="logo"/>
-  
-  Ready to help you quickly write simple well designed web applications and APIs.
+</p>
+<p align="center">
+  <i>Ready to help you quickly write simple well designed web applications and APIs.</i>
 </p>
 
 
