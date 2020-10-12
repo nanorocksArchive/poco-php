@@ -1,16 +1,21 @@
 {
     "name": "nanorocks/poco-php",
     "description": "Minimalist PHP framework based on MVC design pattern inspired by Slim PHP.",
+    "keywords": ["php","poco-php", "framework"],
+    "homepage": "https://github.com/nanorocks/pocoPHP",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
             "name": "nanorocks",
-            "email": "andrejnankov@gmail.com"
+            "email": "andrejnankov@gmail.com",
+            "homepage": "https://nanorocks.github.io/",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "stable",
     "require": {
+        "php": ">=7.1",
         "twig/twig": "^3.0",
         "illuminate/database": "^6.14",
         "pimple/pimple": "^3.2",
