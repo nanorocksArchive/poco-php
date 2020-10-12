@@ -10,7 +10,7 @@
 It's recommended that you use [Composer](https://getcomposer.org/) to install pocoPHP.
 
 ```bash
-$ composer create-project nanorocks/pocophp
+$ composer create-project nanorocks/pocophp <project_name>
 ```
 
 This will install pocoPHP and all required dependencies. pocoPHP requires PHP 7.1 or newer.
