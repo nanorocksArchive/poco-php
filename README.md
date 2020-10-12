@@ -1,6 +1,4 @@
-# pocoPHP
-Minimalist PHP framework based on MVC design pattern inspired by Slim PHP. 
-
+![pocoPHP](https://i.ibb.co/1dHy25F/Screenshot-from-2020-10-12-11-22-22-1.png)
 Ready to help you quickly write simple well designed web applications and APIs.
 
 ### Installation
