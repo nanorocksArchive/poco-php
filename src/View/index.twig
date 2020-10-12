@@ -1,0 +1,39 @@
+{% extends "layout/template.twig" %}
+{% block content %}
+        <div class="col-md-6 offset-md-3">
+            <form method="post" action="/store">
+                <div class="form-group bmd-form-group"> <!-- manually specified -->
+                    <label for="url" class="bmd-label-floating">Enter your url</label>
+                    <input type="url" class="form-control" name="url" id="url" required>
+                </div>
+                <div class="text-center">
+                    <span class="form-group bmd-form-group"> <!-- needed to match padding for floating labels -->
+                        <button type="submit" class="btn btn-outline-primary">Submit</button>
+                    </span>
+                </div>
+            </form>
+            {% if err is empty and err['check'] == false %}
+                <div class="alert alert-success p-3" role="alert">
+                    <div class="d-flex justify-content-start">
+                        <div>
+                            <button type="submit" class="btn btn-outline-primary btn-sm mr-4" onclick="copyToClipboard()">copy</button>
+                        </div>
+                        <div class="p-2 m-0 w-100">
+                            <input class="form-control pt-0 mt-0 flex-grow-1" type="text" value="{{ url }}" id="copy-text">
+                        </div>
+                    </div>
+                </div>
+            {% elseif err['check'] == false %}
+                <div class="alert alert-danger p-3" role="alert">
+                    <div class="d-flex justify-content-start">
+                        <div class="p-2 m-0 w-100 text-center">
+                            <strong>{{ err['msg'] }}</strong>
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+            {% endif %}
+        </div>
+{% endblock %}
+{% block js %}
+{% endblock %}
