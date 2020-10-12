@@ -24,6 +24,8 @@ class RequestHandler
             $ins->load();
         });
 
+        // Code example 
+        
         $router->post('/store',  function () use ($container){
             $ins = new StoreUrlController(
                 $container['twig'],

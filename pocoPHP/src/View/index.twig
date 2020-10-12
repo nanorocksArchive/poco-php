@@ -1,6 +1,12 @@
 {% extends "layout/template.twig" %}
 {% block content %}
-        <div class="col-md-6 offset-md-3">
+        <div class="col-md-6 offset-md-3 pt-5 text-center">
+            <h2>Build something amazing!</h2>
+        </div>
+
+        {#
+         <p>Code Example</p>
+         <div class="col-md-6 offset-md-3">
             <form method="post" action="/store">
                 <div class="form-group bmd-form-group"> <!-- manually specified -->
                     <label for="url" class="bmd-label-floating">Enter your url</label>
@@ -33,7 +39,7 @@
                 </div>
             {% else %}
             {% endif %}
-        </div>
+        </div> #}
 {% endblock %}
 {% block js %}
 {% endblock %}

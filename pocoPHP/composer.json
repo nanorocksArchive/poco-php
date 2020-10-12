@@ -1,5 +1,5 @@
 {
-    "name": "nanorocks/pocoPHP",
+    "name": "nanorocks/poco-php",
     "description": "Minimalist PHP framework based on MVC design pattern inspired by Slim PHP.",
     "type": "project",
     "license": "MIT",

@@ -44,6 +44,8 @@ class ViewUrlPageController implements ControllerInterface
      */
     public function load()
     {
-        echo $this->template->render('index.twig', []);
+        echo $this->template->render('index.twig', [
+            // pass params to view 
+        ]);
     }
 }
