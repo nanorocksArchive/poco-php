@@ -16,7 +16,7 @@ $ composer create-project nanorocks/pocophp <project_name>
 This will install pocoPHP and all required dependencies. pocoPHP requires PHP 7.1 or newer.
 
 ### Frameworks skeleton
-We demnostrate for how to build url shortener and how to organize your code. It's easy to follow and to make clean-up. Currently we don't support full-doc for this framework.  
+We demonstrate how to build a URL shortener and how to organize your code. It's easy to follow and to make clean-up. Currently, we don't support full-doc for this framework.  
 
 ### Core packages and autoload
 - [Templating Twig](https://packagist.org/packages/twig/twig)
